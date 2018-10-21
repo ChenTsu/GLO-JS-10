@@ -23,7 +23,7 @@ class CreateDiv {
   // метод, изменяющий div на странице, ...
   settings( {message, styles} ) {
     this.div.textContent = message;
-    this.div.style.cssText = styles; // это полностью перезапишет все стили которые до этого были на элементе
+    this.div.style.cssText = styles; // это перезапишет некоторые стили которые до этого были на элементе
   }
 }
 
